@@ -1,4 +1,4 @@
-![Picture1](https://user-images.githubusercontent.com/52603892/114061063-000dfb80-9864-11eb-8578-434ec20b1b40.png)
+
 --1.	Write an sql statement that will display the name of each customer and the sum of order totals placed by that customer during 
 -- the year 2002.
 -- Create table customer(cust_id int,  iname varchar (50)) 
@@ -48,4 +48,9 @@ SELECT name FROM person
 (Since I couldn’t find the database we were supposed to operate in, I provided an example of 3rd Normal Form.)
 
 ![Picture1](https://user-images.githubusercontent.com/52603892/114061075-0603dc80-9864-11eb-901b-367253866150.png)
+
+
+
+
+
 
