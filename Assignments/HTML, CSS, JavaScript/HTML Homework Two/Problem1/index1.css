@@ -1,0 +1,23 @@
+body {
+}
+h1 {
+    text-align:center;
+}
+
+form {
+    text-align:center;
+}
+
+table{
+    text-align:center;
+}
+
+.register{
+    color:white;
+    background-color:dodgerblue;
+}
+
+.signin {
+    color: white;
+    background-color: forestgreen;
+}
