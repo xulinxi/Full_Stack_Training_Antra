@@ -1,0 +1,14 @@
+body {
+    background-color:darkgrey;
+}
+
+table {
+    float: left;
+}
+
+.t2 {
+    border:solid;
+    color:white;
+    background-color:#0c5376;
+    height:150px;
+}
