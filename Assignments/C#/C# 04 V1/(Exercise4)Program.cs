@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace NewLanguageFeatures
 {
@@ -6,7 +7,6 @@ namespace NewLanguageFeatures
     {
         public int X { get; set; }
         public int Y { get; set; }
-
 
     }
 
@@ -20,7 +20,7 @@ namespace NewLanguageFeatures
             return newList;
         }
 
-        public static bool Compare(Customer customer1, Customer customer2)
+        public static bool Compare(this Customer customer1, Customer customer2)
         {
 
 
@@ -33,7 +33,6 @@ namespace NewLanguageFeatures
 
             return false;
         }
-
 
 
         public class Customer
@@ -54,15 +53,6 @@ namespace NewLanguageFeatures
 
             class Program
             {
-                //List<Point> Square = new List<Point>
-                //{
-                //    new Point { X=0, Y=5 },
-                //    new Point { X=5, Y=5 },
-                //    new Point { X=5, Y=0 },
-                //    new Point { X=0, Y=0 }
-                //};
-
-
                 static List<Customer> CreateCustomers()
                 {
                     return new List<Customer>
@@ -94,8 +84,6 @@ namespace NewLanguageFeatures
                         };
 
                         var updatedCustomers = customers.Append(addedCustomers);
-
-
 
                         var newCustomer = new Customer(10)
                         {
@@ -131,22 +119,7 @@ namespace NewLanguageFeatures
                         }
 
 
-
-
                     }
-
-                    //public class Point
-                    //{
-                    //    private int x;
-                    //    private int y;
-
-                    //    public int X { get { return x; } set { x = value; } }
-                    //    public int Y { get { return y; } set { y = value; } }
-                    //}
-
-
-
-
 
                 }
 
