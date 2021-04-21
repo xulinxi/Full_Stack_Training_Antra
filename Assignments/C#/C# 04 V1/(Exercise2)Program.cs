@@ -33,13 +33,6 @@ namespace NewLanguageFeatures
         {
 
 
-            List<Point> Square = new List<Point>
-{
-    new Point { X=0, Y=5 },
-    new Point { X=5, Y=5 },
-    new Point { X=5, Y=0 },
-    new Point { X=0, Y=0 }
-};
 
 
             static List<Customer> CreateCustomers()
